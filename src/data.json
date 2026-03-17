@@ -1,0 +1,730 @@
+[
+  {
+    "id": "1212010010130",
+    "nombre": "ACEITE GIRASOL (BGR) 1L C/15U",
+    "precio": 334.222,
+    "unidad": "u",
+    "cantidadBase": 0.035,
+    "costoRacion": 11.69777
+  },
+  {
+    "id": "1212010020451",
+    "nombre": "Aceite Oliva Virgen Extra PET 1/15/1 l ALDAKETA",
+    "precio": 1987.02,
+    "unidad": "u",
+    "cantidadBase": 0.035,
+    "costoRacion": 69.5457
+  },
+  {
+    "id": "1123010030003",
+    "nombre": "AGUA MINERAL NATURAL PET 1/6/1.5 ML CIEGO MONTERO",
+    "precio": 42.5644,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1206030011553",
+    "nombre": "Alubia blanca con tomate lata 2620 gr caja 1/6/2620 gr Marca Heinz",
+    "precio": 994.1273,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 19.882546
+  },
+  {
+    "id": "1108010080002",
+    "nombre": "ARROZ CRIOLLO",
+    "precio": 586.5543,
+    "unidad": "u",
+    "cantidadBase": 0.12,
+    "costoRacion": 70.386516
+  },
+  {
+    "id": "1126030010241",
+    "nombre": "AZUCAR SUPER REFINO DE CA\u00d1A EN SACO",
+    "precio": 116.5205,
+    "unidad": "u",
+    "cantidadBase": 0.035,
+    "costoRacion": 4.0782175
+  },
+  {
+    "id": "1117030010131",
+    "nombre": "BASES DE PIZZAS 170 G",
+    "precio": 76.33,
+    "unidad": "u",
+    "cantidadBase": 1,
+    "costoRacion": 76.33
+  },
+  {
+    "id": "1205010010755",
+    "nombre": "BOTE HOTEL AJO GRANULADO 900 g",
+    "precio": 1208.9,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1205010010763",
+    "nombre": "BOTE HOTEL COLORANTE ALIMENTARIO 900 g",
+    "precio": 561.47,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1205010010765",
+    "nombre": "BOTE HOTEL CURRY MADRAS 800 g",
+    "precio": 658.4,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1126040030126",
+    "nombre": "CAFE PURO TOSTADO Y MOLIDO ENV DE 2 KG",
+    "precio": 2644.16,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 52.8832
+  },
+  {
+    "id": "1106010010102",
+    "nombre": "CALABAZA",
+    "precio": 150.0,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 9.0
+  },
+  {
+    "id": "1101010010015",
+    "nombre": "Carne de cerdo en canales o medios canales (bandas)",
+    "precio": 1741.1926,
+    "unidad": "u",
+    "cantidadBase": 0.5,
+    "costoRacion": 870.5963
+  },
+  {
+    "id": "1106010010072",
+    "nombre": "CEBOLLA",
+    "precio": 471.97,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1308020010498",
+    "nombre": "CEREAL AROS CON MIEL CAJA PQT 1/10/500 G HOTELSA /CONSIG",
+    "precio": 391.69,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1308020010496",
+    "nombre": "CEREAL HOJUELAS DE MAIZ (CORN FLAKES) PQT 1/10/500 G HOTELSA / CONSIG",
+    "precio": 261.97,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1103010010166",
+    "nombre": "CHORIZOS EN MANTECA 640 GR  C/6",
+    "precio": 1052.05,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 63.123
+  },
+  {
+    "id": "1206030014354",
+    "nombre": "Corazon De Alcachofa LATA 1/6/2500 g CELORRIO",
+    "precio": 1891.24,
+    "unidad": "u",
+    "cantidadBase": 0.09,
+    "costoRacion": 170.2116
+  },
+  {
+    "id": "1201080020621",
+    "nombre": "Cuartos de Pollo",
+    "precio": 242.8845,
+    "unidad": "u",
+    "cantidadBase": 0.35,
+    "costoRacion": 85.009575
+  },
+  {
+    "id": "1206030014538",
+    "nombre": "Esparrago Blanco 17/24 LATA 1/12/660 G CELORRIO",
+    "precio": 927.18,
+    "unidad": "u",
+    "cantidadBase": 0.09,
+    "costoRacion": 83.4462
+  },
+  {
+    "id": "1202010010354",
+    "nombre": "FILETE PANGA S/PIEL (BASA) VIMA",
+    "precio": 564.3244,
+    "unidad": "u",
+    "cantidadBase": 0.2,
+    "costoRacion": 112.86488
+  },
+  {
+    "id": "1107010030039",
+    "nombre": "FRIJOL COLORADO",
+    "precio": 1049.9649,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 62.997894
+  },
+  {
+    "id": "1107010020030",
+    "nombre": "FRIJOL NEGRO",
+    "precio": 1032.2712,
+    "unidad": "u",
+    "cantidadBase": 0.55,
+    "costoRacion": 567.74916
+  },
+  {
+    "id": "1317010080637",
+    "nombre": "GELATINA DE FRESA PQT 1/8/1000 G HOTELSA CONSG",
+    "precio": 835.41,
+    "unidad": "u",
+    "cantidadBase": 0.04,
+    "costoRacion": 33.4164
+  },
+  {
+    "id": "1317010080638",
+    "nombre": "GELATINA DE MANZANA PQT 1/8/1000 G HOTELSA CONSG",
+    "precio": 835.41,
+    "unidad": "u",
+    "cantidadBase": 0.04,
+    "costoRacion": 33.4164
+  },
+  {
+    "id": "1317010081060",
+    "nombre": "GELATINA DE PI\u00f1A PQT 1/8/1000 G HOTELSA / CONSIG",
+    "precio": 805.475,
+    "unidad": "u",
+    "cantidadBase": 0.04,
+    "costoRacion": 32.219
+  },
+  {
+    "id": "1317010081059",
+    "nombre": "GELATINA NEUTRA PQT 1/8/650 G HOTELSA / CONSIG",
+    "precio": 1290.55,
+    "unidad": "u",
+    "cantidadBase": 0.04,
+    "costoRacion": 51.622
+  },
+  {
+    "id": "1111010010045",
+    "nombre": "GUAYABA",
+    "precio": 228.5591,
+    "unidad": "u",
+    "cantidadBase": 0.08,
+    "costoRacion": 18.284728
+  },
+  {
+    "id": "1206040021335",
+    "nombre": "Guindilla En Vinagre POMO 1/6/1750 G ALDAKETA",
+    "precio": 855.65,
+    "unidad": "u",
+    "cantidadBase": 0.09,
+    "costoRacion": 77.0085
+  },
+  {
+    "id": "1109020020027",
+    "nombre": "HARINA DE MAIZ",
+    "precio": 276.6143,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 16.596858
+  },
+  {
+    "id": "1209010010020",
+    "nombre": "HARINA DE TRIGO T55. NACIONAL. SACO DE PAPEL 25KG.",
+    "precio": 179.2417,
+    "unidad": "u",
+    "cantidadBase": 0.035,
+    "costoRacion": 6.2734595
+  },
+  {
+    "id": "1118010010013",
+    "nombre": "HUEVOS GALLINAS FRESCOS PQT 30 U",
+    "precio": 25.6,
+    "unidad": "u",
+    "cantidadBase": 2,
+    "costoRacion": 51.2
+  },
+  {
+    "id": "1103020010055",
+    "nombre": "JAMONADA MIXTA",
+    "precio": 932.1481,
+    "unidad": "u",
+    "cantidadBase": 0.09,
+    "costoRacion": 83.893329
+  },
+  {
+    "id": "1114020010182",
+    "nombre": "Jugo de limon La Cubanita",
+    "precio": 221.0,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1204010020018",
+    "nombre": "Leche Entera en Polvo 26% MG  (1 x 25 kg)",
+    "precio": 613.9123,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 12.278246
+  },
+  {
+    "id": "1201010010623",
+    "nombre": "LOMO DE CERDO S/H IMPORTADO",
+    "precio": 590.04,
+    "unidad": "u",
+    "cantidadBase": 0.24,
+    "costoRacion": 141.6096
+  },
+  {
+    "id": "1202010010774",
+    "nombre": "LOMOS ATUN ROJO",
+    "precio": 1708.284,
+    "unidad": "u",
+    "cantidadBase": 0.24,
+    "costoRacion": 409.98816
+  },
+  {
+    "id": "1104040020031",
+    "nombre": "MANTEQUILLA S/SAL 8 GR  100U",
+    "precio": 23.232,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 0.46464
+  },
+  {
+    "id": "1204040010002",
+    "nombre": "MANTEQUILLA S/SAL BLOQUES 25 KG VIMA",
+    "precio": 1411.0698,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 28.221396
+  },
+  {
+    "id": "1103030010964",
+    "nombre": "Masa de Hamburguesa MDM",
+    "precio": 1328.0,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 79.68
+  },
+  {
+    "id": "1213010020298",
+    "nombre": "Mayonesa POTE 1/4/3600 ML CELORRIO",
+    "precio": 1710.645,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 34.2129
+  },
+  {
+    "id": "1201080020040",
+    "nombre": "MEDIA PECHUGA DE POLLO S/P Y S/H",
+    "precio": 709.4801,
+    "unidad": "u",
+    "cantidadBase": 0.2,
+    "costoRacion": 141.89602
+  },
+  {
+    "id": "1211040012740",
+    "nombre": "Minidosis Mermelada De Ciruela CaJA 288 x 20 g JUMEl RUMBO",
+    "precio": 2870.0343,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 57.400686
+  },
+  {
+    "id": "1113010040099",
+    "nombre": "MOSTAZA 1850 GR  C/6",
+    "precio": 889.34,
+    "unidad": "u",
+    "cantidadBase": 0.03,
+    "costoRacion": 26.6802
+  },
+  {
+    "id": "1213010040032",
+    "nombre": "MOSTAZA PET 1/12/300 GR LA FRAGUA",
+    "precio": 186.22,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 3.7244
+  },
+  {
+    "id": "1317010081062",
+    "nombre": "MOUSSE DE AVELLANA PQT 1/7/700 G HOTELSA / CONSIG",
+    "precio": 1157.8107,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 23.156214
+  },
+  {
+    "id": "1317010081067",
+    "nombre": "MOUSSE DE MOKA PQT 1/7/640 G HOTELSA / CONSIG",
+    "precio": 1094.045,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 21.8809
+  },
+  {
+    "id": "1317010081069",
+    "nombre": "MOUSSE DE NATA PQT 1/7/800 G HOTELSA / CONSIG",
+    "precio": 1068.74,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 21.3748
+  },
+  {
+    "id": "1111020010042",
+    "nombre": "NARANJA AGRIA",
+    "precio": 136.0,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1317010020566",
+    "nombre": "NATA EN POLVO  PQT 1/7/750 G  HOTELSA",
+    "precio": 1042.79,
+    "unidad": "u",
+    "cantidadBase": 0.02,
+    "costoRacion": 20.8558
+  },
+  {
+    "id": "1203010060055",
+    "nombre": "Paleta cocida tonet 1x2x3.2 Kg",
+    "precio": 831.54,
+    "unidad": "u",
+    "cantidadBase": 0.2,
+    "costoRacion": 166.308
+  },
+  {
+    "id": "1117030010416",
+    "nombre": "PAN BON CORTEZA SUAVE 80 G",
+    "precio": 38.45,
+    "unidad": "u",
+    "cantidadBase": 2,
+    "costoRacion": 76.9
+  },
+  {
+    "id": "1117030010928",
+    "nombre": "PAN MOLDE  900 G",
+    "precio": 529.2041,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1117030010454",
+    "nombre": "PAN P/BOCADITOS 20 G",
+    "precio": 11.246,
+    "unidad": "u",
+    "cantidadBase": 15,
+    "costoRacion": 168.69
+  },
+  {
+    "id": "1206020010035",
+    "nombre": "PAPAS PREFRITAS 10/10 MM BOLSA 1/4/2.5 KG VIMA",
+    "precio": 422.68,
+    "unidad": "u",
+    "cantidadBase": 0.025,
+    "costoRacion": 10.567
+  },
+  {
+    "id": "1219040010180",
+    "nombre": "Pasta Lasagne PQT 1/12/500 G DIVELLA",
+    "precio": 335.3313,
+    "unidad": "u",
+    "cantidadBase": 0.05,
+    "costoRacion": 16.766565
+  },
+  {
+    "id": "1219040010179",
+    "nombre": "Pastas Cannelloni PQT 1/24/250 g DIVELLA",
+    "precio": 175.502,
+    "unidad": "u",
+    "cantidadBase": 0.05,
+    "costoRacion": 8.7751
+  },
+  {
+    "id": "1219010010276",
+    "nombre": "Pastas Linguine pqt 900 gr caja 1/12/900 gr ITALPASTA",
+    "precio": 327.3676,
+    "unidad": "u",
+    "cantidadBase": 0.05,
+    "costoRacion": 16.36838
+  },
+  {
+    "id": "1219010010258",
+    "nombre": "Pastas Linguine pqt 900 gr caja 1/12/900 gr PRIMO",
+    "precio": 318.9092,
+    "unidad": "u",
+    "cantidadBase": 0.05,
+    "costoRacion": 15.94546
+  },
+  {
+    "id": "1219010010257",
+    "nombre": "Pastas Spaguetti pqt 900 gr caja 1/12/900 gr PRIMO",
+    "precio": 318.5365,
+    "unidad": "u",
+    "cantidadBase": 0.05,
+    "costoRacion": 15.926825
+  },
+  {
+    "id": "1206040020044",
+    "nombre": "Pepinillo En Vinagre Pomo 1/3/GALON Aldaketa",
+    "precio": 1684.81,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1106010010065",
+    "nombre": "PEPINO",
+    "precio": 173.913,
+    "unidad": "u",
+    "cantidadBase": 0.6,
+    "costoRacion": 104.3478
+  },
+  {
+    "id": "1211040010242",
+    "nombre": "PERA EN ALMIBAR LATA 1/6/2500 GR LA FRAGUA",
+    "precio": 1112.0457,
+    "unidad": "u",
+    "cantidadBase": 500.0,
+    "costoRacion": null
+  },
+  {
+    "id": "1103040030006",
+    "nombre": "PERRO CALIENTE DE RES Y MDM",
+    "precio": 1200.0,
+    "unidad": "u",
+    "cantidadBase": 0.6,
+    "costoRacion": 720.0
+  },
+  {
+    "id": "1201090030374",
+    "nombre": "PICADILLO  DE  RES",
+    "precio": 975.3865,
+    "unidad": "u",
+    "cantidadBase": 0.6,
+    "costoRacion": 585.2319
+  },
+  {
+    "id": "1306010010427",
+    "nombre": "PIMIENTO (VERDE, AMARILLO Y ROJO)",
+    "precio": 542.2638,
+    "unidad": "u",
+    "cantidadBase": 1,
+    "costoRacion": 542.2638
+  },
+  {
+    "id": "1111010010021",
+    "nombre": "PI\u00d1A",
+    "precio": 208.7942,
+    "unidad": "u",
+    "cantidadBase": 0.1,
+    "costoRacion": 20.87942
+  },
+  {
+    "id": "1106010020071",
+    "nombre": "PL\u00c1TANO BURRO",
+    "precio": 99.132,
+    "unidad": "u",
+    "cantidadBase": 0.1,
+    "costoRacion": 9.9132
+  },
+  {
+    "id": "1111010010014",
+    "nombre": "PL\u00c1TANO FRUTA",
+    "precio": 150.0,
+    "unidad": "u",
+    "cantidadBase": 0.1,
+    "costoRacion": 15.0
+  },
+  {
+    "id": "1106010020064",
+    "nombre": "PL\u00c1TANO VIANDA",
+    "precio": 150.0,
+    "unidad": "u",
+    "cantidadBase": 0.1,
+    "costoRacion": 15.0
+  },
+  {
+    "id": "1111040010668",
+    "nombre": "Pulpa de frutas naturales tamarindo",
+    "precio": 650.0,
+    "unidad": "u",
+    "cantidadBase": 0.1,
+    "costoRacion": 65.0
+  },
+  {
+    "id": "1106030010918",
+    "nombre": "PURE DE TOMATE ENV 1 KG",
+    "precio": 353.6806,
+    "unidad": "u",
+    "cantidadBase": 0.05,
+    "costoRacion": 17.68403
+  },
+  {
+    "id": "1204050030163",
+    "nombre": "QUESO CREMA POTE PLASTICO 2 KG",
+    "precio": 1051.2,
+    "unidad": "u",
+    "cantidadBase": 0.03,
+    "costoRacion": 31.536
+  },
+  {
+    "id": "1204050030682",
+    "nombre": "Queso Gouda Bloque 3 kg",
+    "precio": 1231.4879,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 73.889274
+  },
+  {
+    "id": "1104050030029",
+    "nombre": "QUESOS FRESCOS",
+    "precio": 750.0,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 45.0
+  },
+  {
+    "id": "1206030014194",
+    "nombre": "Remolacha Rallada LATA 1/6/2500 G CELORRIO",
+    "precio": 507.361,
+    "unidad": "u",
+    "cantidadBase": 0.09,
+    "costoRacion": 45.66249
+  },
+  {
+    "id": "1105020010070",
+    "nombre": "Sal Comun Fina Yodada Secada Saco 25 Kg",
+    "precio": 90.4302,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1203040020022",
+    "nombre": "Salchichas cl\u00e1sicas de pollo pack 340 gr (10 unidades) caja 1/24/340 gr PERDIX",
+    "precio": 128.3326,
+    "unidad": "u",
+    "cantidadBase": 1,
+    "costoRacion": 128.3326
+  },
+  {
+    "id": "1202010010507",
+    "nombre": "SALMON AHUMADO PRECORTADO VIMA",
+    "precio": 4327.2,
+    "unidad": "u",
+    "cantidadBase": 0.12,
+    "costoRacion": 519.264
+  },
+  {
+    "id": "1213010010179",
+    "nombre": "Salsa de tomate c/Albahaca para pastas  lata 2840 gr caja 1/6/2840 gr PRIMO",
+    "precio": 1244.6154,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1213010010177",
+    "nombre": "Salsa de tomate para pastas original lata 2840 gr caja 1/6/2840 gr PRIMO",
+    "precio": 1159.104,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1205020010297",
+    "nombre": "SAZONADOR COMINO MOLIDO ( BOTE SAZONADOR COMINOS 750G)",
+    "precio": 1677.1,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1117010120557",
+    "nombre": "SIROPE CARAMELO 1200 GR C/6",
+    "precio": 948.0,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1117010120561",
+    "nombre": "SIROPE VAINILLA 1200 GR C/6",
+    "precio": 969.6,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1306010010397",
+    "nombre": "TOMATE ENSALADA",
+    "precio": 548.5186,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 32.911116
+  },
+  {
+    "id": "1206030014262",
+    "nombre": "Tomate Entero Pelado LATA 1/6/2500 G CELORRIO",
+    "precio": 326.1,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 19.566
+  },
+  {
+    "id": "1120010010029",
+    "nombre": "VINAGRE GRAN CHEFF 5LT",
+    "precio": 1007.534,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1120040010017",
+    "nombre": "VINO SECO NATURAL BOTELLA 1/12/1 L VARIAS",
+    "precio": 212.32,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1120040010024",
+    "nombre": "VINO SECO NATURAL BOTELLA 1/6/2 L VARIAS",
+    "precio": 300.8674,
+    "unidad": "u",
+    "cantidadBase": 0,
+    "costoRacion": 0.0
+  },
+  {
+    "id": "1106010020003",
+    "nombre": "YUCA FRESCA",
+    "precio": 150.0,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 9.0
+  },
+  {
+    "id": "1106010010058",
+    "nombre": "ZANAHORIA",
+    "precio": 217.3913,
+    "unidad": "u",
+    "cantidadBase": 0.06,
+    "costoRacion": 13.043478
+  }
+]

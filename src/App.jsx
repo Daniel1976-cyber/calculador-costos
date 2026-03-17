@@ -1,19 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { ShoppingCart, Calculator, Plus, Trash2, Download, RefreshCw, X, Receipt } from 'lucide-react';
 
-// Datos de prueba simulando el archivo Excel
-const INITIAL_PRODUCTS = [
-  { id: '1', nombre: 'Carne de Res Premium', precio: 15.50, unidad: 'kg', costoRacion: 3.10 },
-  { id: '2', nombre: 'Pollo Pechuga', precio: 8.20, unidad: 'kg', costoRacion: 1.64 },
-  { id: '3', nombre: 'Pescado Fresco', precio: 12.00, unidad: 'kg', costoRacion: 2.40 },
-  { id: '4', nombre: 'Arroz Grano Largo', precio: 1.50, unidad: 'kg', costoRacion: 0.15 },
-  { id: '5', nombre: 'Papas Nativas', precio: 1.20, unidad: 'kg', costoRacion: 0.24 },
-  { id: '6', nombre: 'Cebolla Roja', precio: 0.80, unidad: 'kg', costoRacion: 0.08 },
-  { id: '7', nombre: 'Tomate', precio: 1.10, unidad: 'kg', costoRacion: 0.11 },
-  { id: '8', nombre: 'Aceite de Oliva', precio: 8.50, unidad: 'litro', costoRacion: 0.42 },
-  { id: '9', nombre: 'Sal', precio: 0.50, unidad: 'kg', costoRacion: 0.01 },
-  { id: '10', nombre: 'Especias Surtidas', precio: 5.00, unidad: 'paquete', costoRacion: 0.25 },
-];
+import INITIAL_PRODUCTS from './data.json';
+
 
 function App() {
   const [modo, setModo] = useState(null); // 'plato' o 'libre'
