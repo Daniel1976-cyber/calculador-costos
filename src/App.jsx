@@ -5,7 +5,7 @@ import INITIAL_PRODUCTS from './data.json';
 
 
 function App() {
-  const [modo, setModo] = useState(null); // 'plato' o 'libre'
+  const [modo, setModo] = useState('libre'); // Solo 'libre' (menú libre)
   const [productos, setProductos] = useState(INITIAL_PRODUCTS);
   const [seleccionados, setSeleccionados] = useState([]);
   const [precioVenta, setPrecioVenta] = useState('');
@@ -19,19 +19,9 @@ function App() {
   const costoTotal = seleccionados.reduce((acc, item) => acc + item.costoTotalLinea, 0);
 
   const agregarProducto = (producto) => {
-    if (modo === 'plato') {
-      // Modo plato: Se agrega con el costo de ración fijo
-      const nuevoItem = {
-        ...producto,
-        cantidadUsada: 1, // Representa 1 ración
-        costoTotalLinea: producto.costoRacion
-      };
-      setSeleccionados([...seleccionados, nuevoItem]);
-    } else {
-      // Modo libre: Abrir modal para pedir cantidad
-      setProductoActual(producto);
-      setCantidadInput('1');
-    }
+    // Modo libre: Abrir modal para pedir cantidad
+    setProductoActual(producto);
+    setCantidadInput('1');
   };
 
   const confirmarCantidadLibre = () => {
@@ -72,7 +62,7 @@ function App() {
     
     setReporte({
       fecha: new Date().toLocaleString(),
-      modo: modo === 'plato' ? 'Plato Fijo' : 'Menú Libre',
+      modo: 'Menú Libre',
       items: [...seleccionados],
       costoTotal: costoTotal,
       precioVenta: precio,
@@ -114,46 +104,28 @@ function App() {
     URL.revokeObjectURL(url);
   };
 
-  // Pantalla de Inicio (Selección de Modo)
-  if (!modo) {
+  // Pantalla de Inicio - Siempre muestra Menú Libre
+  const [mostrarInicio, setMostrarInicio] = useState(true);
+  
+  if (mostrarInicio) {
     return (
       <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 flex flex-col items-center justify-center p-4">
         <div className="max-w-md w-full bg-white dark:bg-slate-800 rounded-2xl shadow-xl overflow-hidden">
-          <div className="bg-blue-600 p-6 text-center text-white">
+          <div className="bg-emerald-600 p-6 text-center text-white">
             <Calculator className="w-16 h-16 mx-auto mb-4 opacity-90" />
             <h1 className="text-2xl font-bold">Calculador de Costo</h1>
-            <p className="opacity-80 mt-2">Selecciona el modo de cálculo</p>
+            <p className="opacity-80 mt-2">Modo: Menú Libre</p>
           </div>
           
           <div className="p-6 space-y-4">
+            <p className="text-slate-600 dark:text-slate-300 text-center mb-4">
+              Especificar cantidad/peso por cada producto
+            </p>
             <button 
-              onClick={() => setModo('plato')}
-              className="w-full relative overflow-hidden group bg-slate-50 dark:bg-slate-700/50 hover:bg-blue-50 dark:hover:bg-blue-900/20 border-2 border-slate-200 dark:border-slate-700 hover:border-blue-500 rounded-xl p-4 transition-all text-left"
+              onClick={() => setMostrarInicio(false)}
+              className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3 px-4 rounded-xl transition-all"
             >
-              <div className="flex items-center">
-                <div className="bg-blue-100 dark:bg-blue-900/50 p-3 rounded-lg text-blue-600 dark:text-blue-400 mr-4">
-                  <Receipt className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg">Costo de Plato</h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">Usar costo de ración fijo precalculado</p>
-                </div>
-              </div>
-            </button>
-
-            <button 
-              onClick={() => setModo('libre')}
-              className="w-full relative overflow-hidden group bg-slate-50 dark:bg-slate-700/50 hover:bg-emerald-50 dark:hover:bg-emerald-900/20 border-2 border-slate-200 dark:border-slate-700 hover:border-emerald-500 rounded-xl p-4 transition-all text-left"
-            >
-              <div className="flex items-center">
-                <div className="bg-emerald-100 dark:bg-emerald-900/50 p-3 rounded-lg text-emerald-600 dark:text-emerald-400 mr-4">
-                  <Calculator className="w-6 h-6" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-lg">Menú Libre</h3>
-                  <p className="text-sm text-slate-500 dark:text-slate-400">Especificar cantidad/peso por cada producto</p>
-                </div>
-              </div>
+              Comenzar
             </button>
           </div>
         </div>
@@ -170,8 +142,8 @@ function App() {
           <div className="flex items-center gap-2">
             <Calculator className="text-blue-600 dark:text-blue-400" />
             <h1 className="font-bold text-lg hidden sm:block">Calculador Costos</h1>
-            <span className="bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 text-xs px-2 py-1 rounded-full font-medium ml-2">
-              {modo === 'plato' ? 'Modo Plato' : 'Modo Libre'}
+            <span className="bg-emerald-100 dark:bg-emerald-700 text-emerald-600 dark:text-emerald-300 text-xs px-2 py-1 rounded-full font-medium ml-2">
+              Menú Libre
             </span>
           </div>
           <button 
@@ -205,7 +177,6 @@ function App() {
                       <h4 className="font-medium">{p.nombre}</h4>
                       <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
                         ${p.precio.toFixed(2)} / {p.unidad}
-                        {modo === 'plato' && <span className="ml-2 text-blue-600 dark:text-blue-400 font-medium">Ración: ${p.costoRacion.toFixed(2)}</span>}
                       </p>
                     </div>
                     <div className="bg-slate-100 dark:bg-slate-700 p-2 rounded-full text-blue-600 dark:text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">
@@ -244,7 +215,7 @@ function App() {
                     <div className="flex-1 pr-4">
                       <h4 className="font-medium text-sm leading-tight">{item.nombre}</h4>
                       <p className="text-xs text-slate-500 mt-1">
-                        {modo === 'libre' ? `${item.cantidadUsada} ${item.unidad} @ $${item.precio}/u` : '1 ración'}
+                        {item.cantidadUsada} {item.unidad} @ ${item.precio}/u
                       </p>
                     </div>
                     <div className="flex items-center gap-3">
